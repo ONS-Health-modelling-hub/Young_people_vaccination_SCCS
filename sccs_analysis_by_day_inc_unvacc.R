@@ -11,12 +11,12 @@ library(data.table)
 library(survival)
 library(gnm)
 
-dir ="cen_dth_gps/Vaccination analysis/Deaths_post_vaccination/Young_people/"
-results_folder <- paste0(dir, "Final_results/revisions_vaccinations/")
+dir =""
+results_folder <- paste0(dir, "")
 dir.create(results_folder)
-plots_folder <- paste0(results_folder, "/figures_and_tables/")
+plots_folder <- paste0(results_folder, "")
 dir.create(plots_folder)
-data_folder <- paste0(dir, "Data_revisions/")
+data_folder <- paste0(dir, "")
 
 
 source(paste0(dir, "_Functions.R"))
